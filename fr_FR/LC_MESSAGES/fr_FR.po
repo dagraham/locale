@@ -61,7 +61,7 @@ msgstr ""
 
 #: data.py:4025 dialog.py:125
 msgid "In Basket"
-msgstr "corbeille à voir"
+msgstr "Corbeille à voir"
 
 #: data.py:4028
 msgid "Now"
@@ -108,9 +108,8 @@ msgid "minutes"
 msgstr "minutes"
 
 #: data.py:4787
-#, fuzzy
 msgid "now"
-msgstr "Actuellement :"
+msgstr "maintenant"
 
 #: data.py:4789
 msgid "{0} from now"
