@@ -285,10 +285,6 @@ msgstr ""
 msgid "Valid entry"
 msgstr ""
 
-#: etmTk/dialog.py:111
-msgid "Make"
-msgstr ""
-
 #: etmTk/dialog.py:112 etmTk/view.py:144
 msgid "Print"
 msgstr ""
@@ -305,7 +301,7 @@ msgstr ""
 msgid "Save changes to report specifications"
 msgstr ""
 
-#: etmTk/dialog.py:116 etmTk/dialog.py:158 etmTk/view.py:149
+#: etmTk/dialog.py:116 etmTk/view.py:149
 msgid "Close"
 msgstr ""
 
@@ -369,101 +365,101 @@ msgstr ""
 msgid "running"
 msgstr ""
 
-#: etmTk/dialog.py:218 etmTk/dialog.py:1774 etmTk/view.py:980
+#: etmTk/dialog.py:217 etmTk/dialog.py:1773 etmTk/view.py:980
 msgid "Cancel"
 msgstr ""
 
-#: etmTk/dialog.py:566
+#: etmTk/dialog.py:565
 msgid "Repeating "
 msgstr ""
 
-#: etmTk/dialog.py:571
+#: etmTk/dialog.py:570
 msgid "Is {0} the starting time you intended?"
 msgstr ""
 
-#: etmTk/dialog.py:578
+#: etmTk/dialog.py:577
 msgid " starting {0}."
 msgstr ""
 
-#: etmTk/dialog.py:580
+#: etmTk/dialog.py:579
 msgid "Unscheduled "
 msgstr ""
 
-#: etmTk/dialog.py:672 etmTk/view.py:433 etmTk/view.py:1114 etmTk/view.py:1119
+#: etmTk/dialog.py:671 etmTk/view.py:433 etmTk/view.py:1114 etmTk/view.py:1119
 msgid "Quit"
 msgstr ""
 
-#: etmTk/dialog.py:672
+#: etmTk/dialog.py:671
 msgid ""
 "There are unsaved changes.\n"
 "Do you really want to quit?"
 msgstr ""
 
-#: etmTk/dialog.py:690 etmTk/dialog.py:1289 etmTk/view.py:2930
+#: etmTk/dialog.py:689 etmTk/dialog.py:1288 etmTk/view.py:2930
 msgid "OK"
 msgstr ""
 
-#: etmTk/dialog.py:719 etmTk/view.py:1072
+#: etmTk/dialog.py:718 etmTk/view.py:1072
 msgid "confirm"
 msgstr ""
 
-#: etmTk/dialog.py:959
+#: etmTk/dialog.py:958
 msgid "Create Timer"
 msgstr ""
 
-#: etmTk/dialog.py:962
+#: etmTk/dialog.py:961
 msgid "Create or Choose Timer"
 msgstr ""
 
-#: etmTk/dialog.py:1336
+#: etmTk/dialog.py:1335
 msgid "file:"
 msgstr ""
 
-#: etmTk/dialog.py:1351
+#: etmTk/dialog.py:1350
 msgid "filter:"
 msgstr ""
 
-#: etmTk/dialog.py:1364
+#: etmTk/dialog.py:1363
 msgid "{0}:"
 msgstr ""
 
-#: etmTk/dialog.py:1770
+#: etmTk/dialog.py:1769
 msgid "Yes"
 msgstr ""
 
-#: etmTk/dialog.py:1771
+#: etmTk/dialog.py:1770
 msgid "No"
 msgstr ""
 
-#: etmTk/dialog.py:1773
+#: etmTk/dialog.py:1772
 msgid "Ok"
 msgstr ""
 
-#: etmTk/dialog.py:1861
+#: etmTk/dialog.py:1860
 msgid "an integer"
 msgstr ""
 
-#: etmTk/dialog.py:1864
+#: etmTk/dialog.py:1863
 msgid "no less than {0}"
 msgstr ""
 
-#: etmTk/dialog.py:1865
+#: etmTk/dialog.py:1864
 msgid "and "
 msgstr ""
 
-#: etmTk/dialog.py:1867
+#: etmTk/dialog.py:1866
 msgid "{0}no greater than {0}"
 msgstr ""
 
-#: etmTk/dialog.py:1868
+#: etmTk/dialog.py:1867
 msgid "is required"
 msgstr ""
 
-#: etmTk/dialog.py:1895
+#: etmTk/dialog.py:1894
 msgid "could not parse \"{0}\""
 msgstr ""
 
-#: etmTk/dialog.py:1916
+#: etmTk/dialog.py:1915
 msgid "an entry is required"
 msgstr ""
 
@@ -596,7 +592,7 @@ msgid "Set outline depth"
 msgstr ""
 
 #: etmTk/view.py:537
-msgid "Toggle displayings finished"
+msgid "Toggle finished"
 msgstr ""
 
 #: etmTk/view.py:550
