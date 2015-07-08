@@ -12,34 +12,30 @@ msgstr ""
 "X-Generator: Poedit 1.8.1\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: etmTk/data.py:563 etmTk/view.py:118 etmTk/view.py:2057
+#: etmTk/data.py:554 etmTk/view.py:118 etmTk/view.py:2103
 msgid "Week"
 msgstr ""
 
-#: etmTk/data.py:966
+#: etmTk/data.py:957
 msgid ""
 "Warning: any timezone information in dates prior to 1970 is ignored under "
 "Windows."
 msgstr ""
 
-#: etmTk/data.py:1329 etmTk/data.py:5127
+#: etmTk/data.py:1320 etmTk/data.py:5127
 msgid "none"
 msgstr ""
 
-#: etmTk/data.py:1330
+#: etmTk/data.py:1321
 msgid "Yesterday"
 msgstr ""
 
-#: etmTk/data.py:1331
+#: etmTk/data.py:1322
 msgid "Today"
 msgstr ""
 
-#: etmTk/data.py:1332
+#: etmTk/data.py:1323
 msgid "Tomorrow"
-msgstr ""
-
-#: etmTk/data.py:1333
-msgid "Finish ..."
 msgstr ""
 
 #: etmTk/data.py:1653
@@ -283,27 +279,31 @@ msgstr ""
 msgid "removed item"
 msgstr ""
 
-#: etmTk/dialog.py:105
+#: etmTk/dialog.py:104
 msgid "selected repetitions"
 msgstr ""
 
-#: etmTk/dialog.py:106
+#: etmTk/dialog.py:105
 msgid "all repetitions"
 msgstr ""
 
-#: etmTk/dialog.py:107
+#: etmTk/dialog.py:106
 msgid "Error messages"
 msgstr ""
 
-#: etmTk/dialog.py:108
+#: etmTk/dialog.py:107
 msgid "Valid entry"
+msgstr ""
+
+#: etmTk/dialog.py:109 etmTk/view.py:553
+msgid "Finish"
 msgstr ""
 
 #: etmTk/dialog.py:112 etmTk/view.py:144
 msgid "Print"
 msgstr ""
 
-#: etmTk/dialog.py:113 etmTk/view.py:145 etmTk/view.py:784
+#: etmTk/dialog.py:113 etmTk/view.py:145 etmTk/view.py:782
 msgid "Export report in text format ..."
 msgstr ""
 
@@ -311,7 +311,7 @@ msgstr ""
 msgid "Export report in CSV format ..."
 msgstr ""
 
-#: etmTk/dialog.py:115 etmTk/view.py:147 etmTk/view.py:786
+#: etmTk/dialog.py:115 etmTk/view.py:147 etmTk/view.py:784
 msgid "Save changes to report specifications"
 msgstr ""
 
@@ -379,11 +379,11 @@ msgstr ""
 msgid "running"
 msgstr ""
 
-#: etmTk/dialog.py:217 etmTk/dialog.py:1773 etmTk/view.py:980
+#: etmTk/dialog.py:217 etmTk/dialog.py:1773 etmTk/view.py:977
 msgid "Cancel"
 msgstr ""
 
-#: etmTk/dialog.py:565
+#: etmTk/dialog.py:565 etmTk/view.py:1805
 msgid "Repeating "
 msgstr ""
 
@@ -391,15 +391,15 @@ msgstr ""
 msgid "Is {0} the starting time you intended?"
 msgstr ""
 
-#: etmTk/dialog.py:577
+#: etmTk/dialog.py:577 etmTk/view.py:1815
 msgid " starting {0}."
 msgstr ""
 
-#: etmTk/dialog.py:579
+#: etmTk/dialog.py:579 etmTk/view.py:1817
 msgid "Unscheduled "
 msgstr ""
 
-#: etmTk/dialog.py:671 etmTk/view.py:433 etmTk/view.py:1114 etmTk/view.py:1119
+#: etmTk/dialog.py:671 etmTk/view.py:432 etmTk/view.py:1111 etmTk/view.py:1116
 msgid "Quit"
 msgstr ""
 
@@ -409,11 +409,11 @@ msgid ""
 "Do you really want to quit?"
 msgstr ""
 
-#: etmTk/dialog.py:689 etmTk/dialog.py:1288 etmTk/view.py:2930
+#: etmTk/dialog.py:689 etmTk/dialog.py:1288 etmTk/view.py:2980
 msgid "OK"
 msgstr ""
 
-#: etmTk/dialog.py:718 etmTk/view.py:1072
+#: etmTk/dialog.py:718 etmTk/view.py:1069
 msgid "confirm"
 msgstr ""
 
@@ -513,19 +513,19 @@ msgstr ""
 msgid "Calendars"
 msgstr ""
 
-#: etmTk/view.py:130 etmTk/view.py:547
+#: etmTk/view.py:130 etmTk/view.py:549
 msgid "Copy"
 msgstr ""
 
-#: etmTk/view.py:131 etmTk/view.py:549
+#: etmTk/view.py:131 etmTk/view.py:551
 msgid "Edit"
 msgstr ""
 
-#: etmTk/view.py:132 etmTk/view.py:548
+#: etmTk/view.py:132 etmTk/view.py:550
 msgid "Delete"
 msgstr ""
 
-#: etmTk/view.py:134 etmTk/view.py:334
+#: etmTk/view.py:134 etmTk/view.py:333
 msgid "File"
 msgstr ""
 
@@ -545,7 +545,7 @@ msgstr ""
 msgid "View"
 msgstr ""
 
-#: etmTk/view.py:139 etmTk/view.py:321
+#: etmTk/view.py:139 etmTk/view.py:320
 msgid "Item"
 msgstr ""
 
@@ -561,388 +561,392 @@ msgstr ""
 msgid "Make report"
 msgstr ""
 
-#: etmTk/view.py:307
+#: etmTk/view.py:306
 msgid "Menu"
 msgstr ""
 
-#: etmTk/view.py:349
+#: etmTk/view.py:348
 msgid "Start Action Timer"
 msgstr ""
 
-#: etmTk/view.py:357
+#: etmTk/view.py:356
 msgid "Finish Action Timer"
 msgstr ""
 
-#: etmTk/view.py:365
+#: etmTk/view.py:364
 msgid "Toggle Current Timer"
 msgstr ""
 
-#: etmTk/view.py:373
+#: etmTk/view.py:372
 msgid "Delete Action Timer"
 msgstr ""
 
-#: etmTk/view.py:392
+#: etmTk/view.py:391
 msgid "Data file ..."
 msgstr ""
 
-#: etmTk/view.py:400
+#: etmTk/view.py:399
 msgid "Configuration file ..."
 msgstr ""
 
-#: etmTk/view.py:499
+#: etmTk/view.py:498
 msgid "Set outline filter"
 msgstr ""
 
-#: etmTk/view.py:508
+#: etmTk/view.py:507
 msgid "Clear outline filter"
 msgstr ""
 
-#: etmTk/view.py:517
+#: etmTk/view.py:516
 msgid "Toggle labels"
 msgstr ""
 
-#: etmTk/view.py:527
+#: etmTk/view.py:526
 msgid "Set outline depth"
 msgstr ""
 
-#: etmTk/view.py:537
+#: etmTk/view.py:536
 msgid "Toggle finished"
 msgstr ""
 
-#: etmTk/view.py:550
+#: etmTk/view.py:552
 msgid "Edit file"
 msgstr ""
 
-#: etmTk/view.py:551
-msgid "Finish"
-msgstr ""
-
-#: etmTk/view.py:552
+#: etmTk/view.py:554
 msgid "Move"
 msgstr ""
 
-#: etmTk/view.py:553
+#: etmTk/view.py:555
 msgid "Reschedule"
 msgstr ""
 
-#: etmTk/view.py:554
+#: etmTk/view.py:556
 msgid "Schedule new"
 msgstr ""
 
-#: etmTk/view.py:555
+#: etmTk/view.py:557
 msgid "Klone as timer"
 msgstr ""
 
-#: etmTk/view.py:556
+#: etmTk/view.py:558
 msgid "Open link"
 msgstr ""
 
-#: etmTk/view.py:557
+#: etmTk/view.py:559
+msgid "Show date and time details"
+msgstr ""
+
+#: etmTk/view.py:560
 msgid "Show user details"
 msgstr ""
 
-#: etmTk/view.py:609
+#: etmTk/view.py:607
 msgid "Home"
 msgstr ""
 
-#: etmTk/view.py:619
+#: etmTk/view.py:617
 msgid "Jump to date"
 msgstr ""
 
-#: etmTk/view.py:632
+#: etmTk/view.py:630
 msgid "Show remaining alerts for today"
 msgstr ""
 
-#: etmTk/view.py:641
+#: etmTk/view.py:639
 msgid "List busy times in week/month"
 msgstr ""
 
-#: etmTk/view.py:649
+#: etmTk/view.py:647
 msgid "List free times in week/month"
 msgstr ""
 
-#: etmTk/view.py:660
+#: etmTk/view.py:658
 msgid "Date and time calculator"
 msgstr ""
 
-#: etmTk/view.py:670
+#: etmTk/view.py:668
 msgid "Available dates calculator"
 msgstr ""
 
-#: etmTk/view.py:680
+#: etmTk/view.py:678
 msgid "Yearly calendar"
 msgstr ""
 
-#: etmTk/view.py:693
+#: etmTk/view.py:691
 msgid "Show outline as text"
 msgstr ""
 
-#: etmTk/view.py:703
+#: etmTk/view.py:701
 msgid "Print outline"
 msgstr ""
 
-#: etmTk/view.py:712
+#: etmTk/view.py:710
 msgid "Export to iCal"
 msgstr ""
 
-#: etmTk/view.py:722
+#: etmTk/view.py:720
 msgid "Update calendar subscriptions"
 msgstr ""
 
-#: etmTk/view.py:732
+#: etmTk/view.py:730
 msgid "Reload data from files"
 msgstr ""
 
-#: etmTk/view.py:744
+#: etmTk/view.py:742
 msgid "History of changes"
 msgstr ""
 
-#: etmTk/view.py:783
+#: etmTk/view.py:781
 msgid "Create and display selected report"
 msgstr ""
 
-#: etmTk/view.py:785
+#: etmTk/view.py:783
 msgid "Export report in csv format ..."
 msgstr ""
 
-#: etmTk/view.py:787
+#: etmTk/view.py:785
 msgid "Expand report list"
 msgstr ""
 
-#: etmTk/view.py:797
+#: etmTk/view.py:795
 msgid "Search"
 msgstr ""
 
-#: etmTk/view.py:799
+#: etmTk/view.py:797
 msgid "Shortcuts"
 msgstr ""
 
-#: etmTk/view.py:804
+#: etmTk/view.py:802
 msgid "User manual"
 msgstr ""
 
-#: etmTk/view.py:809
+#: etmTk/view.py:807
 msgid "About"
 msgstr ""
 
-#: etmTk/view.py:816
+#: etmTk/view.py:814
 msgid "Check for update"
 msgstr ""
 
-#: etmTk/view.py:979
+#: etmTk/view.py:976
 msgid "Show completions"
 msgstr ""
 
-#: etmTk/view.py:1077
+#: etmTk/view.py:1074
 msgid "Display items from calendars selected below."
 msgstr ""
 
-#: etmTk/view.py:1092
+#: etmTk/view.py:1089
 msgid "No calendars have been specified in etmtk.cfg."
 msgstr ""
 
-#: etmTk/view.py:1115
+#: etmTk/view.py:1112
 msgid ""
 "An action timer is running.\n"
 "Do you really want to quit?"
 msgstr ""
 
-#: etmTk/view.py:1120
+#: etmTk/view.py:1117
 msgid "Do you really want to quit?"
 msgstr ""
 
-#: etmTk/view.py:1172
+#: etmTk/view.py:1169
 msgid "No record was found for {0}"
 msgstr ""
 
-#: etmTk/view.py:1186
+#: etmTk/view.py:1183
 msgid "date and time calculator"
 msgstr ""
 
-#: etmTk/view.py:1203
+#: etmTk/view.py:1200
 msgid "available dates calculator"
 msgstr ""
 
-#: etmTk/view.py:1216
+#: etmTk/view.py:1213
 msgid "Selected item successfully exported to {0}"
 msgstr ""
 
-#: etmTk/view.py:1218
+#: etmTk/view.py:1215
 msgid "Could not export selected item."
 msgstr ""
 
-#: etmTk/view.py:1227
+#: etmTk/view.py:1224
 msgid "Active calendars successfully exported to {0}"
 msgstr ""
 
-#: etmTk/view.py:1229
+#: etmTk/view.py:1226
 msgid "Could not export active calendars."
 msgstr ""
 
-#: etmTk/view.py:1286
+#: etmTk/view.py:1283
 msgid "You have selected an instance of a repeating"
 msgstr ""
 
-#: etmTk/view.py:1287
+#: etmTk/view.py:1284
 msgid "item. What do you want to {0}?"
 msgstr ""
 
-#: etmTk/view.py:1290 etmTk/view.py:1296
+#: etmTk/view.py:1287 etmTk/view.py:1293
 msgid "this instance"
 msgstr ""
 
-#: etmTk/view.py:1291 etmTk/view.py:1297
+#: etmTk/view.py:1288 etmTk/view.py:1294
 msgid "this and all subsequent instances"
 msgstr ""
 
-#: etmTk/view.py:1292 etmTk/view.py:1298
+#: etmTk/view.py:1289 etmTk/view.py:1295
 msgid "all instances"
 msgstr ""
 
-#: etmTk/view.py:1293
+#: etmTk/view.py:1290
 msgid "all previous instances"
 msgstr ""
 
-#: etmTk/view.py:1304
+#: etmTk/view.py:1301
 msgid "instance: {0}"
 msgstr ""
 
-#: etmTk/view.py:1325 etmTk/view.py:1399
+#: etmTk/view.py:1322 etmTk/view.py:1396
 msgid "Confirm"
 msgstr ""
 
-#: etmTk/view.py:1326
+#: etmTk/view.py:1323
 msgid "Open a copy of this item?"
 msgstr ""
 
-#: etmTk/view.py:1334 etmTk/view.py:1486
+#: etmTk/view.py:1331 etmTk/view.py:1489
 msgid "new item"
 msgstr ""
 
-#: etmTk/view.py:1400
+#: etmTk/view.py:1397
 msgid "Delete this item?"
 msgstr ""
 
-#: etmTk/view.py:1437
+#: etmTk/view.py:1434
 msgid "Adding item to {1} failed - aborted removing item from {2}"
 msgstr ""
 
-#: etmTk/view.py:1668
+#: etmTk/view.py:1671
 msgid "Aborting. File {0} already exists."
 msgstr ""
 
-#: etmTk/view.py:1669
+#: etmTk/view.py:1672
 msgid "new file"
 msgstr ""
 
-#: etmTk/view.py:1677
+#: etmTk/view.py:1680
 msgid "created: {0}"
 msgstr ""
 
-#: etmTk/view.py:1684
+#: etmTk/view.py:1687
 msgid "etm"
 msgstr ""
 
-#: etmTk/view.py:1685
+#: etmTk/view.py:1688
 msgid ""
 "file: {0}\n"
 "has been created.\n"
 "Open it for editing?"
 msgstr ""
 
-#: etmTk/view.py:1694
+#: etmTk/view.py:1697
 msgid ""
 "Enter the completion date for the item or return an empty string to\n"
 "use the current date. Relative dates and fuzzy parsing are supported."
 msgstr ""
 
-#: etmTk/view.py:1697 etmTk/view.py:3453
+#: etmTk/view.py:1700 etmTk/view.py:3503
 msgid "date"
 msgstr ""
 
-#: etmTk/view.py:1726
+#: etmTk/view.py:1729
 msgid "rescheduling {0}"
 msgstr ""
 
-#: etmTk/view.py:1730 etmTk/view.py:1767
+#: etmTk/view.py:1733 etmTk/view.py:1770
 msgid "scheduling an undated item"
 msgstr ""
 
-#: etmTk/view.py:1732 etmTk/view.py:1769
+#: etmTk/view.py:1735 etmTk/view.py:1772
 msgid ""
 "Enter the new date and time for the item or return an empty string to\n"
 "use the current time. Relative dates and fuzzy parsing are supported."
 msgstr ""
 
-#: etmTk/view.py:1764
+#: etmTk/view.py:1767
 msgid "adding new instance"
 msgstr ""
 
-#: etmTk/view.py:1797
+#: etmTk/view.py:1835
+msgid "Date and time details"
+msgstr ""
+
+#: etmTk/view.py:1841
 msgid "remaining alerts for today"
 msgstr ""
 
-#: etmTk/view.py:1799
+#: etmTk/view.py:1843
 msgid "alert"
 msgstr ""
 
-#: etmTk/view.py:1800
+#: etmTk/view.py:1844
 msgid "event"
 msgstr ""
 
-#: etmTk/view.py:1801
+#: etmTk/view.py:1845
 msgid "type"
 msgstr ""
 
-#: etmTk/view.py:1802
+#: etmTk/view.py:1846
 msgid "summary"
 msgstr ""
 
-#: etmTk/view.py:1813
+#: etmTk/view.py:1857
 msgid "None                                 "
 msgstr ""
 
-#: etmTk/view.py:1908
+#: etmTk/view.py:1952
 msgid "Busy periods in {0}"
 msgstr ""
 
-#: etmTk/view.py:1944
+#: etmTk/view.py:1988
 msgid "busy times"
 msgstr ""
 
-#: etmTk/view.py:1956
+#: etmTk/view.py:2000
 msgid "Enter the shortest time period you want displayed in minutes."
 msgstr ""
 
-#: etmTk/view.py:1958 etmTk/view.py:3614
+#: etmTk/view.py:2002 etmTk/view.py:3673
 msgid "depth"
 msgstr ""
 
-#: etmTk/view.py:1963
+#: etmTk/view.py:2007
 msgid "Free periods in {0}"
 msgstr ""
 
-#: etmTk/view.py:2010
+#: etmTk/view.py:2054
 msgid "free times"
 msgstr ""
 
-#: etmTk/view.py:2057
+#: etmTk/view.py:2103
 msgid "{0} {1}: {2}"
 msgstr ""
 
-#: etmTk/view.py:2927
+#: etmTk/view.py:2977
 msgid "Calendar"
 msgstr ""
 
-#: etmTk/view.py:2993
+#: etmTk/view.py:3043
 msgid "Showing changes for {0}."
 msgstr ""
 
-#: etmTk/view.py:2997
+#: etmTk/view.py:3047
 msgid "Showing changes for all files."
 msgstr ""
 
-#: etmTk/view.py:2999
+#: etmTk/view.py:3049
 msgid ""
 "{0}\n"
 "\n"
@@ -953,109 +957,109 @@ msgid ""
 "or 0 to display all changes."
 msgstr ""
 
-#: etmTk/view.py:3009
+#: etmTk/view.py:3059
 msgid "Changes"
 msgstr ""
 
-#: etmTk/view.py:3119 etmTk/view.py:3125
+#: etmTk/view.py:3169 etmTk/view.py:3175
 msgid "selected"
 msgstr ""
 
-#: etmTk/view.py:3132
+#: etmTk/view.py:3182
 msgid "line"
 msgstr ""
 
-#: etmTk/view.py:3134
+#: etmTk/view.py:3184
 msgid "lines"
 msgstr ""
 
-#: etmTk/view.py:3137
+#: etmTk/view.py:3187
 msgid "Errors"
 msgstr ""
 
-#: etmTk/view.py:3137 etmTk/view.py:3139
+#: etmTk/view.py:3187 etmTk/view.py:3189
 msgid "file"
 msgstr ""
 
-#: etmTk/view.py:3337
+#: etmTk/view.py:3387
 msgid ""
 "A sound alert failed. The setting for 'alert_soundcmd' is missing from  your "
 "etmtk.cfg."
 msgstr ""
 
-#: etmTk/view.py:3346
+#: etmTk/view.py:3396
 msgid ""
 "A display alert failed. The setting for 'alert_displaycmd' is missing from "
 "your etmtk.cfg."
 msgstr ""
 
-#: etmTk/view.py:3356
+#: etmTk/view.py:3406
 msgid ""
 "An email alert failed. The setting for 'alert_voicecmd' is missing from your "
 "etmtk.cfg."
 msgstr ""
 
-#: etmTk/view.py:3365
+#: etmTk/view.py:3415
 #, python-format
 msgid ""
 "An email alert failed. Settings for the following variables are missing from "
 "your etmtk.cfg: %s."
 msgstr ""
 
-#: etmTk/view.py:3395
+#: etmTk/view.py:3445
 #, python-format
 msgid ""
 "A text alert failed. Settings for the following variables are missing from "
 "your 'emt.cfg': %s."
 msgstr ""
 
-#: etmTk/view.py:3448
+#: etmTk/view.py:3498
 msgid ""
 "Return an empty string for the current date or a date to be parsed.\n"
 "Relative dates and fuzzy parsing are supported."
 msgstr ""
 
-#: etmTk/view.py:3521
+#: etmTk/view.py:3580
 msgid "new action"
 msgstr ""
 
-#: etmTk/view.py:3578
+#: etmTk/view.py:3637
 msgid "could not process command \"{0}\""
 msgstr ""
 
-#: etmTk/view.py:3592
+#: etmTk/view.py:3651
 msgid "command \"{0}\" returned no output"
 msgstr ""
 
-#: etmTk/view.py:3609
+#: etmTk/view.py:3668
 msgid ""
 "Enter an integer depth to expand branches\n"
 "or 0 to expand all branches completely."
 msgstr ""
 
-#: etmTk/view.py:3742
+#: etmTk/view.py:3801
 msgid "Print current outline?"
 msgstr ""
 
-#: etmTk/view.py:3847
+#: etmTk/view.py:3906
 msgid "Report contains no output."
 msgstr ""
 
-#: etmTk/view.py:3857
+#: etmTk/view.py:3916
 msgid "'{0}' could not be processed"
 msgstr ""
 
-#: etmTk/view.py:3885
+#: etmTk/view.py:3944
 msgid "Save the additions to your report specifications? {0} "
 msgstr ""
 
-#: etmTk/view.py:3960
+#: etmTk/view.py:4019
 msgid ""
 "Succesfully updated:\n"
 "  {0}"
 msgstr ""
 
-#: etmTk/view.py:3962
+#: etmTk/view.py:4021
 msgid ""
 "Not updated:\n"
 "  {0}"
